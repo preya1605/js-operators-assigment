@@ -625,6 +625,42 @@ console.log(false <= 0); // true
 console.log("" <= 0);    // true
 console.log(NaN <= 5);   // false
 
+//INCREMENT/DECREMENT OPERATORS
+//1
+let x = 5;
+let y = x++;
+
+console.log(x);
+console.log(y);
+
+//2
+let a = 5;
+let b = ++a;
+
+console.log(a);
+console.log(b);
+
+//3
+let lives = 3;
+let previousLives = lives--;
+
+console.log(lives);
+console.log(previousLives);
+
+//4
+let attempts = 0;
+let currentAttempts = ++attempts;
+
+console.log(attempts);
+console.log(currentAttempts);
+
+//5
+
+
+
+
+
+
 
 
 
