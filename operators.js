@@ -655,14 +655,155 @@ console.log(attempts);
 console.log(currentAttempts);
 
 //5
+let count = 0;
+count++;
+count++;
+console.log(count);
+
+//6
+let x = 5;
+let y = x++;
+console.log(x, y);
+
+//7
+let a = 5;
+let b = ++a;
+console.log(a, b);
+
+//8
+let lives = 3;
+let previousLives = lives--;
+console.log(lives, previousLives);
+
+//9
+let attempts = 0;
+let currentAttempts = ++attempts;
+console.log(attempts, currentAttempts);
+
+//10
+let points = 100;
+points++;
+points--;
+console.log(points);
+
+//11
+let x = 10;
+let y = x++;
+let z = ++x;
+console.log(x, y, z);
+
+//12
+let a = 5;
+let b = a-- + ++a;
+console.log(a, b);
+
+//13
+let m = 7;
+let n = --m + m++;
+console.log(m, n);
+
+//14
+let p = 3;
+let q = p++ + ++p + p;
+console.log(p, q);
+
+//15
+let val = 0;
+val = val++ + ++val;
+console.log(val);
+
+//LOGICAL OPERATPRS
+//1
+let username = "admin";
+let password = 1234;
+
+console.log(username == "admin" && password == 1234);
+
+//2
+let isLoggedIn = true;
+let hasPermission = true;
+
+console.log(isLoggedIn && hasPermission);
+
+//3
+let inStock = true;
+let price = 800;
+
+console.log(inStock && price < 1000);
+
+//4
+let marks = 75;
+let attendance = 80;
+
+console.log(marks > 65 && attendance > 70);
+
+//5
+let isWeekend = true;
+let isHoliday = false;
+
+console.log(isWeekend && isHoliday);
+
+//6
+let a = 0;
+let b = 10;
+let result = a && b;
+console.log(result);
+
+//7
+let x = 5;
+let y = 10;
+let result = (x > 3 && y) || 0;
+console.log(result);
+
+//8
+let x = 5;
+let y = 10;
+let result = (x > 3 && y) || 0;
+console.log(result);
 
 
+//9
+let val = 5;
+let condition = val && (val = 0);
+console.log(condition);
+console.log(val);
 
+//10
+let x = 10;
+let y = 20;
+let result = (x && y) && (x > y);
+console.log(result);
 
+//LOGICAL OR 
+//1
+let passwordCorrect = true;
+let otpValid = false;
 
+console.log(passwordCorrect || otpValid);
 
+//2
+let isMember = false;
+let hasCoupon = true;
 
+console.log(isMember || hasCoupon);
 
+//3
+let age = 16;
+let height = 155;
+
+console.log(age > 18 || height > 150);
+
+//4
+let emailGiven = true;
+let phoneGiven = false;
+
+console.log(emailGiven || phoneGiven);
+
+//5
+let score = 900;
+let timeBonus = true;
+
+console.log(score > 1000 || timeBonus);
 
 
 
