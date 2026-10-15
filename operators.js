@@ -805,5 +805,156 @@ let timeBonus = true;
 
 console.log(score > 1000 || timeBonus);
 
+//6
+let a = 0;
+let b = false;
+let c = "";
+let d = null;
+let e = 42;
+let result = a || b || c || d || e;
+console.log(result);
+
+//7
+let x = "Hello" || 0;
+let y = 0 || "Hi";
+console.log(x, y);
+
+//8
+let a = 10;
+let b = 20;
+let result = (a < 5) || (b > 15);
+console.log(result);
+
+//9
+let val = 5;
+let condition = val || (val = 0);
+console.log(condition);
+console.log(val);
+
+//10
+let x = "" || 0 || false || null || undefined || "OK";
+console.log(x);
+//LOGICAL NOT
+
+//1//
+let isBanned = false;
+console.log(!isBanned);
+
+//2
+let isCompleted = false;
+console.log(!isCompleted);
+
+//3
+let isOn = true;
+console.log(!isOn);
+
+//4
+let isActive = false;
+console.log(!isActive);
+
+//5
+let isReadOnly = false;
+console.log(!isReadOnly);
+//6
 
 
+//true false
+
+//7
+// false true
+
+//8
+//false
+
+//9
+false
+
+//10false
+
+//typeof operator
+
+//1
+let name = "Rahul";
+console.log(typeof name);
+//string
+
+//2
+let age = 25;
+console.log(typeof age);
+//number
+
+//3
+let isStudent = true;
+console.log(typeof isStudent);
+//boolean
+
+//4
+let city;
+console.log(typeof city);
+//undefined
+
+//5
+console.log(typeof null);
+//object
+
+//6
+//number
+string
+boolean
+undefined
+
+//7
+object
+object
+object
+
+//8
+number
+number
+function
+
+//9
+let price = 99.99;
+let message = "Welcome";
+let isActive = false;
+
+console.log("Price:", typeof price);
+console.log("Message:", typeof message);
+console.log("Is Active:", typeof isActive);
+
+//10
+let value = null;
+console.log(typeof value);
+console.log(typeof value === "object");
+
+//11
+console.log(typeof typeof 100);
+console.log(typeof typeof "Hi");
+console.log(typeof typeof true);
+
+//12
+let a = 10;
+let b = "10";
+
+console.log(typeof a === typeof b);
+console.log(typeof a == typeof b);
+
+//13
+console.log(typeof null === "object");
+console.log(typeof [] === "object");
+console.log(typeof {} === "object");
+
+//14
+let x;
+console.log(typeof x);
+
+x = null;
+console.log(typeof x);
+
+x = 0;
+console.log(typeof x);
+
+//15
+console.log(typeof NaN === "number");
+console.log(typeof Infinity === "number");
+console.log(typeof (1 / 0));
