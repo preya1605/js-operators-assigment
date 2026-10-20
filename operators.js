@@ -958,3 +958,109 @@ console.log(typeof x);
 console.log(typeof NaN === "number");
 console.log(typeof Infinity === "number");
 console.log(typeof (1 / 0));
+
+
+//TYPE COERCION
+// 1
+console.log(Number("25") + 10);
+
+
+// 2
+console.log(String(100) + "rupees");
+
+// 3
+console.log(Boolean(0));
+
+// 4
+console.log(Boolean("Hello"));
+
+// 5
+console.log(+"50" * 2);
+
+//6
+console.log("10" - 5);
+console.log("10" + 5);
+console.log("10" * 2);
+console.log("10" / 2);
+
+
+
+//7
+console.log("5" - "2");
+console.log("5" + "2");
+console.log("5" * "2");
+console.log("5" / "2");
+//8
+console.log(Number("123"));
+console.log(Number("123abc"));   
+console.log(Number(true));       
+console.log(Number(false));      
+console.log(Number(null));       
+console.log(Number(undefined));  
+
+
+//9
+console.log(Boolean(0));   
+console.log(Boolean(""));     
+console.log(Boolean("0"));    
+console.log(Boolean([]));     
+console.log(Boolean({}));     
+console.log(Boolean(null));  
+
+
+//10
+console.log(String(100));   
+console.log(String(true));    
+console.log(String(null));     
+console.log(String(undefined));
+console.log(100 + "");   
+//11
+     //532
+     //82
+     //4
+     //22
+
+  //12
+    //2
+    //1
+    //truefalse
+    //falsetrue
+    
+  //13
+    //5
+    //NaN
+    //null5
+    //undefined5
+    
+    //14
+
+      //""
+      //[object Object]
+      //[object Object]*
+      //[object Object][object Object]
+    //15
+  //105
+  //5 number
+  // 15 number
+  
+//16
+//true
+//false
+//false
+//true
+//false
+//false
+
+//17
+  //0
+  //0
+  //0
+  //25
+  //NaN
+
+//18
+  //52
+  //7
+  //3
+  //10
+  //2.5
